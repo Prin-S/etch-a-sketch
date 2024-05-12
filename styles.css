@@ -1,0 +1,13 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+  }
+
+.flex-container div {
+    background: peachpuff;
+    filter: brightness(100%);
+    box-shadow: inset 0px 0px 0px 1px #fff;
+    height: 150px;
+    flex: 1 1 25%;
+}
