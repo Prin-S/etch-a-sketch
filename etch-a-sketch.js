@@ -40,7 +40,7 @@ function createGrid(squares = 4) { // Default grid is 4 by 4 boxes
 
     allBoxes.forEach(box => {
         box.addEventListener('mouseover', changeColor.bind(this, box));
-        box.addEventListener('touchmove', changeColor.bind(this, box));
+        box.addEventListener('touchend', changeColor.bind(this, box));
     });
 }
 
